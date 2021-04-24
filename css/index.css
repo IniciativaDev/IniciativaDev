@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(75, 174, 255);
+}
+
+h1{
+    color: #fff;
+    font-style:oblique;
+    font-size: 50px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
