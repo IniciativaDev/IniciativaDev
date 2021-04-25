@@ -1,7 +1,16 @@
-body{
-    background-image: url(../images/background.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    position: relative;
+.box1{
+    background-color: #EFEFEF;
+    width:83%;
+    min-height: 600px;
+    max-height: 600px;
+}
+.box1 .box2{
+    display: flex;
+    background-color: #BC1823; 
+    max-width:25%;
+    margin-left: 530px;
+    min-height: 600px;
+    position:relative;
+    left: 50%;
+    top: -106px;
 }
