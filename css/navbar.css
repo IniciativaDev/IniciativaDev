@@ -3,8 +3,9 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #1D1E21;
 }
-
+/*
 .Navbar nav {
   width: 100%;
   min-height: 80px;
@@ -12,78 +13,35 @@ body {
   position: fixed;
   background-color: #0c9cb3;
 }
+*/
 .Navbar nav p {
   font-family: "Merriweather Sans", sans-serif;
-  color: #ff8421;
+  color: #383B74;
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
-  margin-left: 5px;
+  margin-left: 25px;
 }
 
 .Navbar nav ul {
-  margin-left: 68%;
+  margin-left: 64%;
   list-style: none;
   display: flex;
+  flex-direction: row;
+
 }
 
 .Navbar nav li {
   text-decoration: none;
-  transform: translate(-50%, -105%);
+  margin-top: -55px;
 }
 
 .Navbar nav li a {
+  margin: 5px;
+  font-family: "Merriweather Sans", sans-serif;
+  border-radius: 10px;
   font-size: 19px;
-  display: flex;
-  flex-direction: row;
   text-decoration: none;
-  padding: 20px;
-}
-.Navbar .home-icon {
-  color: #b32d15;
-  font-size: 25px;
-  margin-left: -60px;
-}
-.Navbar .home-name {
-  color: #b32d15;
-  margin-left: 8px;
-  padding-top: 3px;
-}
-
-.Navbar .home-icon {
-  color: #b32d15;
-  font-size: 25px;
-}
-.Navbar .home-name {
-  color: #b32d15;
-  margin-left: 8px;
-  padding-top: 3px;
-}
-.Navbar .info-icon {
-  color: #b32d15;
-  font-size: 25px;
-}
-.Navbar .info-name {
-  color: #b32d15;
-  margin-left: 8px;
-  padding-top: 3px;
-}
-.Navbar .insta-icon {
-  color: #b32d15;
-  font-size: 25px;
-}
-.Navbar .insta-name {
-  color: #b32d15;
-  margin-left: 8px;
-  padding-top: 3px;
-}
-.Navbar .youtube-icon {
-  color: #b32d15;
-  font-size: 25px;
-  margin-left: -60px;
-}
-.Navbar .youtube-name {
-  color: #b32d15;
-  margin-left: 8px;
-  padding-top: 3px;
+  padding: 10px;
+  color:#919292;
 }
