@@ -9,18 +9,18 @@
 }
 
 .Footer{
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100px;
     bottom:0;
-    left:0;
+    left:5;
 }
 .Footer ul{
     display: flex;
     flex-direction: row;
     list-style: none;
     text-decoration: none;
-    margin: 30px;
+    justify-items: center;
     
     
 }
@@ -32,7 +32,10 @@
 }
 .Footer ul li a {
     color: #525166;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin-left: 50%;
+    
 
 }
+@media only screen and (max-device-width: 700px) {
+    .Footer{ width: 100%; height: 100%}
+    }

@@ -1,38 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #1D1E21;
-}
 .Navbar nav p {
-  font-family: "Merriweather Sans", sans-serif;
-  color: #313583;
+  font-family: "Open Sans", sans-serif;
+  color: #3d4186;
   text-decoration: none;
   font-weight: bold;
-  font-size: 25px;
-  margin-left: 25px;
+  font-size: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 
 .Navbar nav ul {
-  margin-left: 64%;
+  margin-left: 80%;
   list-style: none;
   display: flex;
   flex-direction: row;
-
 }
 
 .Navbar nav li {
   text-decoration: none;
-  margin-top: -55px;
+  margin-top: -95px;
 }
 
 .Navbar nav li a {
   margin: 5px;
   font-family: "Merriweather Sans", sans-serif;
-  border-radius: 10px;
   font-size: 19px;
   text-decoration: none;
   padding: 10px;
-  color:#919292;
+  color: #919292;
 }
