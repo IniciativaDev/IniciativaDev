@@ -5,18 +5,9 @@ body {
   padding: 0;
   background-color: #1D1E21;
 }
-/*
-.Navbar nav {
-  width: 100%;
-  min-height: 80px;
-  max-height: 80px;
-  position: fixed;
-  background-color: #0c9cb3;
-}
-*/
 .Navbar nav p {
   font-family: "Merriweather Sans", sans-serif;
-  color: #383B74;
+  color: #313583;
   text-decoration: none;
   font-weight: bold;
   font-size: 25px;
