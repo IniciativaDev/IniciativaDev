@@ -8,6 +8,7 @@
   font-size: 50px;
   margin-left: 50%;
   transform: translate(-40%);
+
 }
 
 .Navbar nav ul {
@@ -15,11 +16,14 @@
   list-style: none;
   display: flex;
   flex-direction: row;
+  
+
 }
 
 .Navbar nav li {
   text-decoration: none;
   margin-top: -95px;
+  
 }
 
 .Navbar nav li a {
@@ -29,4 +33,6 @@
   text-decoration: none;
   padding: 10px;
   color: #919292;
+  
+ 
 }
