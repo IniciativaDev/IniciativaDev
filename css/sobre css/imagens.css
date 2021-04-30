@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+.Equipe h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.Equipe ul {
+    list-style: none;
+}
+
+.Equipe ul li .David_Torres img{
+    height: 300px;
+    border-radius: 35px;
+}
